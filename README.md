@@ -16,4 +16,4 @@ I'm trying to create an email template using a number of common style components
 * CTA button
 * Additional container outside of the main container
 
-The main issue here is that Outlook doesn't render HTML or CSS correctly as they user Microsoft Word as a rendering engine.  However I believe we can manipulate Outlook into working with a `<div>` based layout using `mos-` code.
+The main issue here is that Outlook doesn't render HTML or CSS correctly as it uses Microsoft Word as a rendering engine.  The goal of this project is to create a cross-email-client compatible `<div>`-based layout using `mso-` code.
